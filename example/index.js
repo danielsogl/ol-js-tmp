@@ -1,4 +1,4 @@
-import { stma_openlayers } from '../dist/geoline.ol';
+import { stma_openlayers } from '../dist/geoline.ol.modern';
 
 const map = new stma_openlayers();
 map.initMap(
