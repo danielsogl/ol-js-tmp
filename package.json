@@ -10,7 +10,7 @@
     "build": "microbundle",
     "dev": "microbundle watch",
     "start": "parcel example/index.html",
-    "build:example": "parcel build --public-url . example/index.html"
+    "build:example": "parcel build --public-url . example/index.html --out-dir public"
   },
   "author": "",
   "license": "ISC",
