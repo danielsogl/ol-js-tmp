@@ -1,0 +1,28 @@
+{
+  "name": "open-layers-reworked",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/geoline.ol.js",
+  "main": "dist/geoline.ol.js",
+  "module": "dist/geoline.ol.module.js",
+  "unpkg": "dist/geoline.ol.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "start": "parcel example/index.html",
+    "build:example": "parcel build --public-url . example/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^3.3.38",
+    "@types/node": "^12.12.47",
+    "microbundle": "^0.12.1",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "ol": "^6.3.1"
+  }
+}
