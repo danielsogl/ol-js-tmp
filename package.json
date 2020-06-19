@@ -9,7 +9,7 @@
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
-    "start": "parcel example/index.html",
+    "start": "parcel example/index.html --out-dir www",
     "build:example": "parcel build --public-url . example/index.html --out-dir public"
   },
   "author": "",
