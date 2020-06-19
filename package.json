@@ -2,7 +2,7 @@
   "name": "open-layers-reworked",
   "version": "1.0.0",
   "description": "",
-  "source": "src/geoline.ol.js",
+  "source": "src/index.ol.js",
   "main": "dist/geoline.ol.js",
   "module": "dist/geoline.ol.module.js",
   "unpkg": "dist/geoline.ol.umd.js",
